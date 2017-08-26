@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+}
+h1 {
+    font-family: "Arial Black"
+}
+p {
+    color: yellow;
+    border:5px solid green;
+}   
+#teste{
+color:red;
+font-size:italic;
+}
+.testeclass
+{
+font-size:40px;
