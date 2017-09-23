@@ -1,0 +1,48 @@
+.corpo {
+background-image: url('imagens/fundo.jpg');
+background-repeat: no-repeat;
+blackground-size:10%;
+bottom: 0;
+color: black;
+left: 0;
+overflow: auto;
+padding: 3em;
+position: absolute;
+right: 0;
+top: 0;
+background-size: cover; 
+}
+h1 {
+	font-family: verdana; 
+color: #FFFFFF;
+border: 8px double #8B4500;
+font-size: 40px;
+}
+p {
+color: #FFFFFF;
+font-size: 15px;
+}
+h2 {
+font-family: verdana; 
+color: #FFFFFF;
+font-size: 20px;
+}
+h3 {
+	font-family: verdana; 
+color: #FFFFFF;
+font-size: 20px;
+}
+ul {
+	color: #FFFFFF;
+	font-size: 15px;
+}
+a {
+	color: #cc33ff;
+	text-decoration: none;
+}
+a:hover{
+	color: #cc33ff;
+	text-decoration: underline;
+	font-size: 25px;
+
+}

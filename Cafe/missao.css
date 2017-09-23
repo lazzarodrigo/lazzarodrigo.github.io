@@ -1,0 +1,21 @@
+body{background-image: url('imagens/fundo.jpg');
+background-repeat: no-repeat;
+blackground-size:10%;
+bottom: 0;
+color: black;
+left: 0;
+overflow: auto;
+padding: 3em;
+position: absolute;
+right: 0;
+top: 0;
+background-size: cover; 
+}
+h1 {
+	color: #FFFFFF;
+	font-size: 30px
+}
+h3 {
+	color: #FFFFFF;
+	font-size: 20px
+}
