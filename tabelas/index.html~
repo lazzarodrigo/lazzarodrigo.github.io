@@ -1,0 +1,27 @@
+<html>
+<meta charset="utf-8">
+<title>Tabelas</title>
+		<head>
+			<link rel="stylesheet" href="estilos.css">			
+	</head>
+	<body>  
+<table>
+<tr>
+	<th>Codigo</th>
+	<th></th>
+	
+</tr>
+<tr>
+	<td>Arton Pereira Dorneles</td>
+	<td>arton.dorneles@iffarroupilha.edu.br</td>
+	<td>********</td>
+</tr>
+<tr>
+	<td>Igor Yepes</td>
+	<td>igor.yepes@iffarroupilha.edu.br</td>
+	<td>********</td>
+</tr>
+</table>
+	</body>
+</html>
+

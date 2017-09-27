@@ -1,0 +1,24 @@
+td, th {
+border: 1px solid #dddddd;
+padding: 15px; 
+}
+th {
+	background-color: #0000FF
+}
+td {background-color: #228B22
+}
+.titulo{
+	background-color: #666666
+}
+table{
+width: 39%;
+text-align: center;
+ }
+.img{
+	padding: 2px;
+	background-color: #CDC8B1;
+}
+.tabela2{
+	width: 0%;
+text-align: 0;
+}
