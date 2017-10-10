@@ -1,0 +1,33 @@
+h1{
+	color:#A0522D;
+
+}
+h3{
+	color: #FFFFFF;
+font-size: 25px;
+font-weight: bold
+}
+h2{
+	border-bottom: 6px solid;
+	color:#A0522D;
+
+}
+.corpo{
+background-image: url('imagens/fundo.jpg');
+background-repeat: no-repeat;
+blackground-size:10%;
+bottom: 0;
+color: black;
+left: 0;
+overflow: auto;
+padding: 3em;
+position: absolute;
+right: 0;
+top: 0;
+background-size: cover; 
+}
+p{
+color: #FFFFFF;
+font-size: 20px;
+font-weight: bold
+}

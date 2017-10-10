@@ -37,12 +37,12 @@ ul {
 	font-size: 15px;
 }
 a {
-	color: #cc33ff;
+	color: #FF0000;
 	text-decoration: none;
 }
 a:hover{
-	color: #cc33ff;
+	color: #FF0000;
 	text-decoration: underline;
-	font-size: 25px;
+	font-size: 17px;
 
 }
