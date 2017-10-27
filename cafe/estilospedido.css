@@ -31,3 +31,19 @@ color: #FFFFFF;
 font-size: 20px;
 font-weight: bold
 }
+.formlabel{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align:right;
+	vertical-align: top;
+}
+.formfield{
+	color: #FFFFFF;
+	font-weight: bold;
+
+}
+.formheader{
+	color: #000000;
+	text-align:left;
+	vertical-align: top;
+}

@@ -1,0 +1,93 @@
+<html>
+<meta charset="utf-8">
+<title>Pedido</title>
+		<head>
+			<link rel="stylesheet" href="estilospedido.css">			
+		</head>   
+		<body> 
+		<div class="corpo">
+		<h1>Café StarBugs</h1><br>
+		<h2>Pedido online</h2>
+		<h3>Preecha o formulário abaixo e clique em "Enviar Pedido" para solicitar uma caixa<br> com grãos personalizados.</h3>
+		
+		<br><br>
+		
+		<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+
+		<table>
+			<tr> 
+				<th colspan="1" class="formheader">Dados de contato</th>
+				</tr>
+				<tr><td class="formlabel">	Nome Completo:</td><td class="formfield"> <input type="text" size="40" required placeholder="Jack Java Lee" name="nome"></td></tr>
+				<tr><td class="formlabel">	Email:</td><td class="formfield"> <input type="text" size="40" required placeholder="jack.java.lee@gmail.com" name="email"></td></tr>
+				<tr><td class="formlabel">	Telefone:</td><td class="formfield"> <input type="tel" size="15"  placeholder="(55) 99999 9999" name="telefone"></td></tr>
+			</tr>
+
+				<tr>
+				<th colspan="1" class="formheader">Informações do Pedido</th>
+				</tr>
+				<tr><td class="formlabel">Variedade:</td><td class="formfield"><select>
+  								<option value="Colombia">Grãos da Colombia</option>
+ 								<option value="Himalaia">Grãos do Himalaia</option>
+  								<option value="China">Grãos da China</option>
+  								<option value="Brasil">Grãos do Brasil</option>
+  								<option value="Italia">Grãos da Itália</option> </select> </td></tr>
+				<tr><td class="formlabel">Quantidade:</td><td class="formfield"><input type="number"  required  name="quantidade" min="1" max="100"></td></tr>
+				<tr><td class="formlabel">Data limite:</td><td class="formfield"><input type="date"  required name="data" minlength="2017/10/13"></td></tr>
+				<tr><td class="formlabel">Tipo:</td><td class="formfield"><input type="radio" name="Tipo" value="Inteiros">Grãos inteiros.<br>
+		<input type="radio" name="Tipo" value="Moidos">Grãos moidos.<br><br></td></tr>
+				<tr><td class="formlabel">Extras:</td><td class="formfield"><input type="checkbox" name="Extras" value="Embalar">Embalar para presente.<br>
+		<input type="checkbox" name="Extras" value="Catalogo">Quero um catálogo com cafés especiais.<br><br></td></tr>
+
+
+				</tr>
+
+				<tr>
+				<th colspan="1" class="formheader">Dados de Entrega</th>
+				</tr>
+				<tr><td class="formlabel">	Endereço:</td><td class="formfield"><input type="text" size="62" required placeholder="Rua das Girafas, Apto 101 - Centro" name="endereco"></td></tr>
+				<tr><td class="formlabel">	Cidade/Estado:</td><td class="formfield"><input type="text"  required placeholder="Frederico Westphalen" name="cidade"><label> / </label><select>
+  								<option value="AC">Acre</option>
+ 								<option value="AL">Alagoas</option>
+  								<option value="AP">Amapá</option>
+  								<option value="AM">Amazonas</option>
+  								<option value="BA">Bahia</option>
+  								<option value="CE">Ceará</option>
+  								<option value="DF">Distrito Federal</option>
+  								<option value="ES">Espírito Santo</option>
+  								<option value="GO">Goiás</option>
+  								<option value="MA">Maranhão</option>
+  								<option value="MT">Mato Grosso</option>
+  								<option value="MS">Mato Grosso do Sul</option>
+  								<option value="MG">Minas Gerais</option>
+  								<option value="PA">Pará</option>
+  								<option value="PB">Paraíba</option>
+  								<option value="PR">Paraná</option>
+  								<option value="PE">Pernambuco</option>
+  								<option value="PI">Piauí</option>
+  								<option value="RJ">Rio de Janeiro</option>
+  								<option value="RN">Rio Grande do Norte</option>
+  								<option value="RS">Rio Grande do Sul</option>
+  								<option value="RO">Rondônia</option>
+  								<option value="RR">Roraima</option>
+  								<option value="SC">Santa Catarina</option>
+  								<option value="SP">São Paulo</option>
+  								<option value="SE">Sergipe</option>
+  								<option value="TO">Tocantins</option>
+			    </select></td></tr>
+			    <tr><td class="formlabel">	CEP:</td><td class="formfield"><input type="text" required placeholder="98400-000" name="cep"></td></tr>
+			    <tr><td class="formlabel">	Observações:</td><td class="formfield"><textarea name="Observacao" required rows="4" cols="48" placeholder="Sem açucar e sem milho, por favor."></textarea></td></tr><br>
+			    </tr>
+			    <tr><td class="formheader"></td><td class="formfield"><input type="reset" value="Limpar"> <input type="submit" value="Enviar Pedido"></td></tr>
+
+		</table>
+
+		</p>
+		</div>
+		</body>
+		
+		</form>
+		</form>
+
+
+</html>

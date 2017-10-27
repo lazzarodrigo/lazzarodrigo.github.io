@@ -1,0 +1,12 @@
+
+div {
+background-color:#B22222; color:white; padding: 4px;
+}
+.borda{
+	border: 1px solid; color:white; font-weight: bold;
+
+}
+.preco{
+	color:#7FFF00; font-size: 17px
+
+}
